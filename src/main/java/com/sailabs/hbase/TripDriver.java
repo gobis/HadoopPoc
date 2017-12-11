@@ -10,10 +10,8 @@ public class TripDriver {
 	}
 
 	public static void createTable() {
-		
 		CreateTable createTable = new CreateTable();
 		createTable.createTripTable();
-
 	}
 
 	public static void insertRecord() {

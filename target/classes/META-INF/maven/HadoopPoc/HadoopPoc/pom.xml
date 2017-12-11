@@ -20,6 +20,14 @@
 	<dependencies>
 
 		<dependency>
+			<groupId>jdk.tools</groupId>
+			<artifactId>jdk.tools</artifactId>
+			<version>jdk1.8.0_121</version>
+			<scope>system</scope>
+			<systemPath>C:\Program Files\Java\jdk1.8.0_121\lib\tools.jar</systemPath>
+		</dependency>
+		<!-- System path is different in Mac OS -->
+		<dependency>
 			<groupId>commons-logging</groupId>
 			<artifactId>commons-logging</artifactId>
 			<version>1.2</version>
@@ -44,15 +52,11 @@
 			<artifactId>hbase-client</artifactId>
 			<version>1.1.2</version>
 		</dependency>
-		
+
 		<dependency>
 			<groupId>org.apache.hbase</groupId>
 			<artifactId>hbase-common</artifactId>
 			<version>1.1.2</version>
 		</dependency>
-		
-
-
-
 	</dependencies>
 </project>

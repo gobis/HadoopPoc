@@ -2,8 +2,6 @@ package com.sailabs.kafka;
 
 import java.util.Calendar;
 import java.util.Properties;
-import java.util.concurrent.TimeUnit;
-
 import org.apache.kafka.clients.producer.Callback;
 import org.apache.kafka.clients.producer.KafkaProducer;
 import org.apache.kafka.clients.producer.Producer;

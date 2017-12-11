@@ -1,1 +1,12 @@
-com/sailabs/kafka/SimpleProducer$1.class
+com\sailabs\hbase\TripDriver.class
+com\sailabs\hbase\InsertRecords.class
+com\sailabs\kafka\SimpleConsumer.class
+com\sailabs\kafka\KafkaClient$1.class
+com\sailabs\hbase\MockData.class
+com\sailabs\kafka\SimpleProducer$RecordCallBack.class
+com\sailabs\hbase\HBaseConfig.class
+com\sailabs\kafka\KafkaClient.class
+com\sailabs\hbase\CreateTable.class
+com\sailabs\kafka\SimpleProducer$1.class
+com\sailabs\kafka\SimpleProducer.class
+com\sailabs\kafka\KafkaClient$2.class

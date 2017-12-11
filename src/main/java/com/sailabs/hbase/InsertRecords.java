@@ -4,17 +4,12 @@ import java.io.IOException;
 import java.util.HashMap;
 import java.util.Iterator;
 import java.util.Map;
-import java.util.Random;
 import java.util.concurrent.ThreadLocalRandom;
 
 import org.apache.hadoop.conf.Configuration;
-import org.apache.hadoop.hbase.MasterNotRunningException;
 import org.apache.hadoop.hbase.TableName;
-import org.apache.hadoop.hbase.ZooKeeperConnectionException;
-import org.apache.hadoop.hbase.client.Admin;
 import org.apache.hadoop.hbase.client.Connection;
 import org.apache.hadoop.hbase.client.ConnectionFactory;
-import org.apache.hadoop.hbase.client.HTable;
 import org.apache.hadoop.hbase.client.Put;
 import org.apache.hadoop.hbase.client.Table;
 import org.apache.hadoop.hbase.util.Bytes;
@@ -31,7 +26,7 @@ public class InsertRecords {
 		// get how many users you want to add
 		// get how many product user going to buy
 
-		MockData.getMockData();
+		// MockData.getMockData();
 
 		int userAvailable = ThreadLocalRandom.current().nextInt(MIN_USER_COUNT, MAX_USER_COUNT + 1);
 
@@ -64,7 +59,7 @@ public class InsertRecords {
 		// get how many users you want to add
 		// get how many product user going to buy
 
-		MockData.getTripMockData();
+		/*MockData.getTripMockData();
 
 		int userAvailable = ThreadLocalRandom.current().nextInt(MIN_USER_COUNT, MAX_USER_COUNT + 1);
 
@@ -88,7 +83,7 @@ public class InsertRecords {
 				System.out.println(currentUser + "," + tripBelongs);
 			}
 
-		}
+		}*/
 
 	}
 
@@ -135,20 +130,7 @@ public class InsertRecords {
 		}
 
 		
-		
-	/*	Admin admin = null;
-		try {
-			admin = connection.getAdmin();
-		} catch (MasterNotRunningException e1) {
-			// TODO Auto-generated catch block
-			e1.printStackTrace();
-		} catch (ZooKeeperConnectionException e1) {
-			// TODO Auto-generated catch block
-			e1.printStackTrace();
-		} catch (IOException e1) {
-			// TODO Auto-generated catch block
-			e1.printStackTrace();
-		}*/
+	
 
 	}
 
